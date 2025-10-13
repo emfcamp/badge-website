@@ -1,5 +1,5 @@
-<img src="IMG_0474.jpg" title="IMG_0474.jpg" width="500"
-alt="IMG_0474.jpg" /> ![](Badge_Front.png "Badge_Front.png")
+![](/images/IMG_0474.jpg "IMG_0474.jpg")
+![](/images/Badge_Front.png "Badge_Front.png")
 
 [Why MKe?](http://en.wikipedia.org/wiki/E_(mathematical_constant))
 
@@ -25,8 +25,6 @@ supplier problem meant two issues arose with the badge during EMF:
   running from the battery. It will still function perfectly using USB
   power. "Red" and "Black" are written next to the connector - please
   make sure to plug it in correctly.
-
-<!-- -->
 
 - **Be careful not to short the battery connector wires!** The new
   battery connector slightly exposes the wires when the battery is
@@ -63,7 +61,7 @@ do!
 
 Most of the interesting things are on the back of the badge. They're
 clearly marked in white. [This diagram of the
-back](https://wiki.emfcamp.org/w/images/b/bd/Badge_Back.png) should
+back](images/Badge_Back.png) should
 allow you to locate them. Some of the following require extra parts to
 be added to your badge.
 
@@ -87,8 +85,7 @@ be added to your badge.
 - 2x RGB LEDs on the front
 
 Some features are not mentioned here, or optional extras. They can be
-found in the <a href="TiLDA_MKe/Full_Specification" class="wikilink"
-title="TiLDA_MKe/Full_Specification">TiLDA_MKe/Full_Specification</a>
+found in the (Full_Specification)[Full Specification]
 
 # The Software
 
@@ -98,10 +95,7 @@ We made sure that the badge has a few features to play with once the
 event is over. More will be added over time as attendees submit changes
 to us.
 
-<figure>
-<img src="Badge_Back.png" title="Badge_Back.png" />
-<figcaption>Badge_Back.png</figcaption>
-</figure>
+![](/images/Badge_Back.png "Badge Back")
 
 - Torch mode - Press the light button next to the screen. It will only
   light up fully if it's hung upside down to avoid blinding
@@ -230,9 +224,7 @@ the RX and TX LEDs
 
 ## Programming the badge in FreeRTOS
 
-<a href="TiLDA_MKe/FreeRTOS" class="wikilink"
-title="See this page for information on howto program your badge using FreeRTOS">See
-this page for information on howto program your badge using FreeRTOS</a>
+See [this page](FreeRTOS) for information on howto program your badge using FreeRTOS
 
 ## Contribute
 
@@ -249,8 +241,9 @@ review and merge the good ones so others can use them.
 
 ## Making the badge Arduino shield compatible
 
-<img src="Sheild_Headers.JPG" title="Sheild_Headers.JPG" width="500"
-alt="Sheild_Headers.JPG" /> To make the badge Arduino shield compatible
+![](Sheild_Headers.JPG "Shield Header Pinout")
+
+To make the badge Arduino shield compatible
 you'll need to solder simple strips of header pins onto the back of the
 badge. You need the following headers
 
@@ -278,6 +271,3 @@ All the source code and designs are on openly available on Github:
 
 If you want to help, point your IRC client to \#emfcamp-badge on [Libera
 IRC](https://libera.chat/).
-
-<a href="Category:_Badges" class="wikilink"
-title="Category: Badges">Category: Badges</a>

@@ -1,8 +1,4 @@
-<figure>
-<img src="800px-SiNE_Front_Angle.JPG"
-title="800px-SiNE_Front_Angle.JPG" />
-<figcaption>800px-SiNE_Front_Angle.JPG</figcaption>
-</figure>
+![](/images/800px-SiNE_Front_Angle.JPG "SiNE Front Angle")
 
 ## About SiNE
 

@@ -9,10 +9,9 @@ anyone can play with it.
 - matrix:
   '''[\#badge:emfcamp.org](https://matrix.to/#/#badge:emfcamp.org)
 
-## EMF2024 - Tildagon
+## EMF2024+ - Tildagon
 
-**[Tildagon preliminary
-documentation](https://tildagon.badge.emfcamp.org/)**
+**[Tildagon documentation](https://tildagon.badge.emfcamp.org/)**
 
 Announcement blog post: **[Tildagon: The EMF 2024+
 badge](https://blog.emfcamp.org/2024/03/18/tildagon/)**

@@ -1,0 +1,57 @@
+site_name: EMF Legacy Badge Documentation
+site_description: "Documentation for the EMF Badges 2012-2022"
+site_url: https://badge.emfcamp.org
+repo_url: https://github.com/emfcamp/badge-website
+theme:
+  name: material
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - codehilite
+  - fenced_code
+  - admonition
+  - sane_lists
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+plugins:
+  - glightbox:
+      caption_position: bottom
+  - mkdocs-nav-weight
+  - include-markdown
+  - minify:
+      minify_html: true
+      minify_css: true
+      minify_js: true
+      minify_css: true
+      cache_safe: true
+  - social:
+      cards_layout_options:
+        background_color: "#528329"
+        color: "#ffffff"
+        font-family: "Roboto"
+  - search
+  - spellcheck:
+      backends:  # the backends you want to use
+      - codespell:  # or nested configs
+          dictionaries: [clear, rare]
+
+      # ignore words in <code> tags
+      ignore_code: yes
+
+      # minimum length of words to consider
+      min_length: 2
+
+      # maximum number of capital letters in a word
+      max_capital: 1
+
+      # keep unicode characters
+      allow_unicode: yes
+
+      # whether to only check in strict mode
+      strict_only: no
