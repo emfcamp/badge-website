@@ -29,7 +29,7 @@ jobs:
       - name: Build docs
         env:
           CI: ${{ github.ref == 'refs/heads/main' }}
-        run: pipenv run mkdocs build
+        run: uv run mkdocs build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -48,4 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
