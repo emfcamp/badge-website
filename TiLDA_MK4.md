@@ -106,16 +106,13 @@ messages with the "sms" app. You can also answer calls by pressing
 "Call" in any app, and end or reject a call using the "End" button at
 any time.
 
-<Radiocode> The cellular part of the badge seems to work (reliably)
+The cellular part of the badge seems to work (reliably)
 perfectly if an external antenna is used, such as a mag-mount with a
 length of coax. Seems to be an EMC issue, as using the pictured right
 angle antenna directly on the SMA does not work reliably. Time to get
 the Kapton tape and copper foil out...
 
-<figure>
 <img src="GSM_Antenna.jpg" title="File:GSM Antenna.jpg" />
-<figcaption><a href="File:GSM">File:GSM</a> Antenna.jpg</figcaption>
-</figure>
 
 ### Connecting over USB
 
@@ -153,9 +150,9 @@ On Windows:
 3.  Change COM1 to the COM port for your badge (You can usually find
     this as USB Seiral Port under ports in device manager)
 
-<font color="#606060"><i>Note: if your badge resets while putty is open,
+<i>Note: if your badge resets while putty is open,
 you will have to close the window and open a new connection to the same
-COM port.</i></font>
+COM port.</i>
 
 The basic process is this:
 
@@ -286,7 +283,7 @@ SerialTimeoutException: Write Timeout Fix:
 
 **Using the Grove Serial connector**
 
-<Radiocode> The Badge Team thoughtfully chose to include a couple of
+The Badge Team thoughtfully chose to include a couple of
 Seeed Studio Grove system connectors to the 2018 badge. Looking at the
 rear of the badge, they are either side of the unpopulated 3.5mm jack
 footprint, top right.
