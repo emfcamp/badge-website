@@ -39,9 +39,20 @@ Used for official hexpansions and frontboards.
 |----|----|----|----|----|
 | 0x9009 | Googly Eye | Googly Eye Hexpansion with Pattern Matching | thinkl33t | [1](https://github.com/emfcamp/badge-2024-addons/tree/main/thinkl33t/googly-eye-hexpansion) |
 
-## `VID=0xCBCB` - Team Robotmad
+
+## `VID=0x7CAB` - Tech-Cabin.com
+
+### devices with VID=0x7CAB
 
 | PID | Name | Description | Author | Link to source |
 |----|----|----|----|----|
-|0x01XX |	HexDrive Prototypes |	Motor Driver, Colour Sensor & ToF Range Sensor |	Team RobotMad |	N/A
-|0x02XX |	HexDrive V2 |	BadgeBot Motor Driver, Colour Sensor & ToF Range Sensor |	Team RobotMad  |	[1](https://github.com/TeamRobotMad/BadgeBot)
+| 0x1295 | GPS | GPS using L80K module with built in patch antenna | Tech-Cabin.com | [2](https://github.com/TechCabin/EMFBadge-Hexpansions-GPS) |
+
+## `VID=0xCBCB` - Team Robotmad
+
+### devices with VID=0xCBCB
+
+| PID | Name | Description | Author | Link to source |
+|----|----|----|----|----|
+|0x1XXX |	HexDrive V2 |	BadgeBot Motor Driver, Colour Sensor & ToF Range Sensor |	Team RobotMad  |	[3](https://github.com/TeamRobotMad/BadgeBot) |
+|0x5XXX |	HexCurrent  |	INA226 I2C current (and voltage) sensor |	Team RobotMad  |	[4](https://github.com/TeamRobotMad/HexCurrent) |
