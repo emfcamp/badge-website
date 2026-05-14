@@ -46,7 +46,7 @@ Used for official hexpansions and frontboards.
 
 | PID | Name | Description | Author | Link to source |
 |----|----|----|----|----|
-| 0x1295 | GPS | GPS using L80K module with built in patch antenna | Tech-Cabin.com | [2](https://github.com/TechCabin/EMFBadge-Hexpansions-GPS) |
+| 0x1295 | GPS | GPS using L80K module with built-in patch antenna | Tech-Cabin.com | [2](https://github.com/TechCabin/EMFBadge-Hexpansions-GPS) |
 
 ## `VID=0xCBCB` - Team Robotmad
 
