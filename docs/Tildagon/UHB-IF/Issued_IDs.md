@@ -45,3 +45,10 @@ Used for official hexpansions and frontboards.
 |----|----|----|----|----|
 |0x01XX |	HexDrive Prototypes |	Motor Driver, Colour Sensor & ToF Range Sensor |	Team RobotMad |	N/A
 |0x02XX |	HexDrive V2 |	BadgeBot Motor Driver, Colour Sensor & ToF Range Sensor |	Team RobotMad  |	[1](https://github.com/TeamRobotMad/BadgeBot)
+
+## `VID=0x4E48` - Nottingham Hackspace
+
+| PID | Name | Description | Author | Link to source |
+|----|----|----|----|----|
+|0xBAD6 |	Nottinghack Voyager |	Optical Spinner and Space Navigation Tool |	Team Nottinghack |	[1](https://codeberg.org/mooped/nottinghack-voyager)
+
