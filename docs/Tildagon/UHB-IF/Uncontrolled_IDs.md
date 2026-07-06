@@ -15,7 +15,9 @@ add in numeric order to make searching easier.
 | PID | Name | Description | Author | Link to source |
 |----|----|----|----|----|
 | 0x0000 | Example1 | This is an example entry | H.Acker | [1](https://github.com/emfcamp/badge-2024-addons) |
-| 0x4247 | GCHQ.NET Quest Marker | Quest marker for Great Camp Hexpansion Quest | GCHQ.NET | [3](https://github.com/gchq-net/hexpansion_hardware) |
+| 0x4247 | GCHQ.NET Quest Marker Rev 1 | Quest marker for Great Camp Hexpansion Quest | GCHQ.NET | [3](https://github.com/gchq-net/hexpansion_hardware) |
+| 0x4248 | GCHQ.NET Quest Marker Rev 2 | Quest marker for Great Camp Hexpansion Quest | GCHQ.NET | [3](https://github.com/gchq-net/hexpansion_hardware) |
+| 0x4249 | GCHQ.NET [REDACTED] Rev 2u | Great Camp Hexpansion Quest 2026 | GCHQ.NET | [3](https://github.com/gchq-net/hexpansion_hardware) |
 | 0x4d10 | ECHQ Radiolarian | Reprogrammable digital radio hexpansion | webmariner | [1](https://github.com/webmariner/Radiolarian)
 | 0x8426 | "Legacy" connector adapter | Shitty addons? TiDAL projects? I2C sensors? Connect them easy. | dratini0 | [4](https://github.com/dratini0/legacy-adapter-hexpansion) |
 | 0x8427 | HUB75 hexpansion | I think the Tildagon can drive an LED wall panel. | dratini0 | [5](https://github.com/dratini0/hub75-hexpansion) |
