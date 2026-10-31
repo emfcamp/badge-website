@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "click==8.2.1",
+    "click==8.5.0",
     "codespell>=2.4.1",
     "flake8-markdown>=0.6.0",
     "mkdocs>=1.6.1",
